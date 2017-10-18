@@ -1,6 +1,6 @@
-# Javascript
+
 My personal projects
 
-## Aplicatie pe mobil
+## Mobile application
 
-## Cerinte hardware
+## Contributor: Radu
