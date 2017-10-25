@@ -1,4 +1,4 @@
-document.getElementById("id_logic_level_version").innerHTML = "Logic level version: 2017.10.25.0";
+document.getElementById("id_logic_level_version").innerHTML = "Logic level version: 2017.10.25.1";
 window.addEventListener('deviceorientation', ondeviceorientation);
 window.addEventListener('devicemotion', ondevicemotion);
 
