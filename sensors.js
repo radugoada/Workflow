@@ -1,4 +1,4 @@
-document.getElementById("id_logic_level_version").innerHTML = "Logic level version: 2017.10.25.2";
+document.getElementById("id_logic_level_version").innerHTML = "Logic level version: 2017.10.25.3";
 window.addEventListener('deviceorientation', ondeviceorientation);
 window.addEventListener('devicemotion', ondevicemotion);
 
@@ -17,6 +17,6 @@ function ondevicemotion(event) {
     var ag = event.accelerationIncludingGravity;
     var x_incl = Math.atan(ag.x / ag.z);
     var y_incl = Math.atan(ag.y / ag.z);
-    document.getElementById("id_acc_g").innerHTML = "AccG = " + Math.round(ag.x * 10) / 10+ "  " +Math.round(ag.y * 10) / 10+ " " +Math.round(ag.z * 10) / 10 + "incl_x = " + x_incl + "incl_y = " + y_incl; 
+    document.getElementById("id_acc_g").innerHTML = "AccG = " + Math.round(ag.x * 10) / 10+ "  " +Math.round(ag.y * 10) / 10+ " " +Math.round(ag.z * 10) / 10 + "incl_x = " + Math.round(x_incl * 10) /10 + "incl_y = " + Math.round(y_incl * 10) / 10; 
     
 }
