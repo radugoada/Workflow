@@ -15,4 +15,3 @@ function ondevicemotion(event) {
     document.getElementById("id_acc").innerHTML = Math.round(event.acceleration.x * 10) / 10+ "  " +Math.round(event.acceleration.y * 10) / 10+ " " +Math.round(event.acceleration.z * 10) / 10; 
     document.getElementById("id_acc_g").innerHTML = Math.round(event.accelerationIncludingGravity.x * 10) / 10+ "  " +Math.round(event.accelerationIncludingGravity.y * 10) / 10+ " " +Math.round(event.accelerationIncludingGravity.z * 10) / 10; 
     
-}
