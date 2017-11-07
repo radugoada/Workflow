@@ -1,4 +1,4 @@
-document.getElementById("id_logic_level_version").innerHTML="Business level version 2017.11.01.2";
+document.getElementById("id_logic_level_version").innerHTML="Business level version 2017.11.01.3";
 
 var cerc = document.getElementById("id_circle");
 cerc.setAttribute("cx", 100);
