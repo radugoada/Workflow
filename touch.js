@@ -21,6 +21,7 @@ function generate_random_color()
 
 function on_touch_start(e)
 {
+    e.preventDefault();
     var touches = e.changedTouches;
     for (var i = 0; i < e.changedTouches.length; i++)
     {
@@ -38,6 +39,7 @@ function on_touch_start(e)
 
 function on_touch_move(e)
 {
+    e.preventDefault();
     var touches = e.changedTouches;
     var color = "#FFFFFF";
     
