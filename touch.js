@@ -24,7 +24,7 @@ function on_touch_start(e)
     var touches = e.changedTouches;
     for (i = 0; i < e.changedTouches.length; i++)
     {
-        touch_id.push(( id:touches[i].identifier, color:generate_random_color() ));
+        touch_id.push({ id:touches[i].identifier, color:generate_random_color() });
         
         context.beginPath();
         context.arc(touches[i].pageX - rect.left, touches[i].pageY - rect.top, 10, 0, 2 * Math.PI);
