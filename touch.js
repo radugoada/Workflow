@@ -1,4 +1,4 @@
-document.getElementById("id_logic_level_version").innerHTML="Business level version 2017.11.08.2";
+document.getElementById("id_logic_level_version").innerHTML="Business level version 2017.11.08.3";
 
 var canvas = document.getElementById("id_canvas");
 var context = canvas.getContext("2d");
@@ -10,7 +10,7 @@ function on_touch_start(e)
     var touches = e.changedTouches;
     for (i = 0; i < e.changedTouches.length; i++){
         context.beginPath();
-        context.arc(touches[i].pageX, touches[i].pageY, 10, 0, 2 * Math.PI);
+        context.arc(touches[i].pageX, touches[i].pageY - rect.top, 10, 0, 2 * Math.PI);
         context.stroke();
     }
     
