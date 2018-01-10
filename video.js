@@ -6,7 +6,7 @@ var constraints = {audio:true, video:true};
 navigator.mediaDevices.getUserMedia(constraints).then(on_success).catch(on_error);
 
 
-var video = document.getElementByID("id_video");
+var video = document.getElementById("id_video");
 
 function on_success(stream)
 {
