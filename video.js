@@ -30,6 +30,6 @@ function snap()
 
 function download(){
     
-var my_image = canvas.toDataURL("image/png");
+var my_image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 windows.location.href = my_image;
 }
