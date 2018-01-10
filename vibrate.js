@@ -1,5 +1,5 @@
 
-document.getEventListener("touchstart", vibrate);
+document.addEventListener("touchstart", vibrate);
 
 
 function vibrate()
