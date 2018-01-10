@@ -11,9 +11,9 @@ var video = document.getElementByID("id_video");
 function on_success(stream)
 {
     video.srcObject = stream;
-};
+}
 
 function on_error(error)
 {
     alert("Error");
-};
+}
