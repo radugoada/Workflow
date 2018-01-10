@@ -22,7 +22,7 @@ function on_error(error)
 function snap()
 {
     var canvas = document.getElementById("id_canvas");
-    var context = canvas.getContext("2D");
+    var context = canvas.getContext("2d");
     context.drawImage(video, 0, 0, 640, 480);
     
 }
