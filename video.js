@@ -27,3 +27,9 @@ function snap()
     context.drawImage(video, 0, 0, 640, 480);
     
 }
+
+function download{
+    
+var my_image = canvas.toDataURL("image/png");
+windows.location.href = my_image;
+}
