@@ -28,7 +28,7 @@ function snap()
     
 }
 
-function download{
+function download(){
     
 var my_image = canvas.toDataURL("image/png");
 windows.location.href = my_image;
